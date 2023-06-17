@@ -50,7 +50,7 @@ public static class Program
 			{
 				for (int j = 0; j < n; j++)
 				{
-					Console.Write(proiz[i, j] + "    ");
+					Console.Write($"{proiz[i, j], 7}");
 				}
 				Console.WriteLine();
 			}
